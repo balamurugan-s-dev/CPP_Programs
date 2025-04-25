@@ -6,6 +6,8 @@ using std::cout;
 using std::cin;
 using std::endl;
 
+
+// Function to calculate sum
 int getSum(vector<int> vec){
     int sum = 0;
     for(int i = 0; i <vec.size(); i++){
@@ -14,7 +16,9 @@ int getSum(vector<int> vec){
     return sum;
 }
 
-int showArr(vector<int> vec){
+
+// Function to show array
+void showArr(vector<int> vec){
     for(int i = 0; i < vec.size(); i++){
         cout << vec[i] << " ";
     }
@@ -27,8 +31,9 @@ int main(){
     cout << "Enter the number to factor: ";
     cin >> num;
 
+    // Find factor
     for(int i = 1; i <= num; i++){
-        if(num % i == int()){
+        if(num % i == 0){
             arr.push_back(i);
         }
     }
