@@ -1,0 +1,18 @@
+# Ignore object files
+*.o
+
+# Ignore compiled binary or executable files
+*.exe
+*.out
+*.class
+
+# Ignore build folders (if any)
+/build/
+/bin/
+
+# OS-specific ignores
+.DS_Store       # macOS
+Thumbs.db       # Windows
+
+# VS Code settings (optional)
+.vscode/
